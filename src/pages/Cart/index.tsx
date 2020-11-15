@@ -42,7 +42,7 @@ const Cart: React.FC = () => {
     await increment(id);
   }
 
-  async function handleDecrement(id: string): void {
+  async function handleDecrement(id: string): Promise<void> {
     await decrement(id);
   }
 
