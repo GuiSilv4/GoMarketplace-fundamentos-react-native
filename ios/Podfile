@@ -14,7 +14,6 @@ def add_flipper_pods!(versions = {})
   pod 'FlipperKit/SKIOSNetworkPlugin', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitUserDefaultsPlugin', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitReactPlugin', versions['Flipper'], :configuration => 'Debug'
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   # List all transitive dependencies for FlipperKit pods
   # to avoid them being linked in Release builds
